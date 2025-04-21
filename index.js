@@ -19,7 +19,7 @@ let revealedCoins = [];
 fetch("https://api.coinpaprika.com/v1/coins")
     .then(response => response.json())
     .then(data => {
-        allCoins = data.filter(coin => coin.is_active && coin.rank); // Only active coins with rank
+        allCoins = data.filter(coin => coin.is_active && coin.rank); 
     });
 
 
