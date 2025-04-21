@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+}
+
+#app-container {
+    margin: auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-size: 18px;
+}

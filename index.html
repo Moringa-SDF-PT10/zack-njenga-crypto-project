@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crypto Challenge</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Doc</h1>
+    <div id="app-container">
+        <h1>Crypto Challenge</h1>
+        <button id="start-btn">Start Challenge</button>
+        <div id="challenge-container" style="display: none;">
+            <h2 id="hint-title">First Guess</h2>
+            <div id="hints"></div>
+            <input type="text" id="guess-input" placeholder="Enter coin name..." />
+            <button id="submit-btn">Submit Guess</button>
+            <div id="feedback"></div>
+        </div>
+        <div id="summary-container" style="display: none;">
+            <h2>Game Summary</h2>
+            <p id="summary"></p>
+            <button id="restart-btn">Restart</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
